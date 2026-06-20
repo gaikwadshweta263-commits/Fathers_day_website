@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>💜 Happy Father's Day Papa 💜</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:linear-gradient(135deg,#4A148C,#6A1B9A,#8E44AD,#B39DDB,#D1C4E9);
+color:#fff;
+overflow-x:hidden;
+}
+
+/* Hero */
+
+header{
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:40px 20px;
+text-align:center;
+}
+
+.hero{
+max-width:850px;
+animation:fadeIn 1.2s ease;
+}
+
+.hero h1{
+font-size:60px;
+margin-bottom:20px;
+text-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.hero h2{
+font-size:28px;
+font-weight:400;
+color:#F9F3FF;
+margin-bottom:25px;
+}
+
+.hero p{
+font-size:20px;
+line-height:34px;
+margin-bottom:35px;
+}
+
+.hero button{
+padding:16px 42px;
+font-size:18px;
+font-weight:600;
+border:none;
+border-radius:50px;
+cursor:pointer;
+background:white;
+color:#6A1B9A;
+transition:.4s;
+box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.hero button:hover{
+transform:translateY(-6px) scale(1.05);
+background:#F5ECFF;
+box-shadow:0 15px 30px rgba(0,0,0,.35);
+}
+
+/* Gallery */
+
+.gallery{
+padding:80px 8%;
+}
+
+.gallery h2{
+text-align:center;
+font-size:42px;
+margin-bottom:50px;
+text-shadow:0 5px 15px rgba(0,0,0,.25);
+}
+
+.gallery-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:35px;
+}
+
+.card{
+background:linear-gradient(135deg,#0F4C81,#2874F0,#8FD3FF);
+padding:15px;
+border-radius:22px;
+box-shadow:0 12px 30px rgba(0,0,0,.35);
+transition:.4s;
+border:2px solid rgba(255,255,255,.35);
+}
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+
+.card img{
+width:100%;
+height:auto;
+display:block;
+border-radius:16px;
+border:4px solid white;
+}
+
+.card h3{
+margin-top:18px;
+text-align:center;
+font-size:22px;
+font-weight:600;
+color:white;
+}
+
+/* Message */
+
+.message{
+padding:80px 10%;
+text-align:center;
+}
+
+.message h2{
+font-size:40px;
+margin-bottom:30px;
+text-shadow:0 5px 15px rgba(0,0,0,.3);
+}
+
+.message p{
+font-size:20px;
+line-height:36px;
+max-width:900px;
+margin:auto;
+padding:40px;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(14px);
+border-radius:25px;
+border:1px solid rgba(255,255,255,.3);
+box-shadow:0 15px 35px rgba(0,0,0,.2);
+}
+
+/* Footer */
+
+footer{
+margin-top:60px;
+padding:25px;
+text-align:center;
+background:rgba(255,255,255,.15);
+backdrop-filter:blur(10px);
+font-size:18px;
+}
+
+/* Animation */
+
+@keyframes fadeIn{
+from{
+opacity:0;
+transform:translateY(40px);
+}
+to{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+/* Responsive */
+
+@media(max-width:992px){
+
+.hero h1{
+font-size:48px;
+}
+
+.hero h2{
+font-size:24px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.gallery h2{
+font-size:36px;
+}
+
+.message h2{
+font-size:34px;
+}
+
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:36px;
+}
+
+.hero h2{
+font-size:20px;
+}
+
+.hero p{
+font-size:16px;
+line-height:30px;
+}
+
+.hero button{
+font-size:16px;
+padding:14px 28px;
+}
+
+.gallery{
+padding:50px 20px;
+}
+
+.gallery h2{
+font-size:28px;
+}
+
+.gallery-container{
+grid-template-columns:1fr;
+gap:25px;
+}
+
+.card h3{
+font-size:20px;
+}
+
+.message{
+padding:60px 20px;
+}
+
+.message h2{
+font-size:28px;
+}
+
+.message p{
+font-size:16px;
+line-height:30px;
+padding:25px;
+}
+
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="hero">
+
+<h1>💜 Happy Father's Day Papa 💜</h1>
+
+<h2>My First Hero • My Forever Inspiration </h2>
+
+<p>
+Thank you for every hug, every smile, and every little thing you do. 💙
+Your love makes my world brighter, and I'm so lucky to have you as my Papa.
+I'm proud to be your child.
+Happy Father's Day to the world's greatest Papa!!! I love you so much. 🤍
+</p>
+
+<button onclick="document.getElementById('gallery').scrollIntoView({behavior:'smooth'})">
+View Our Memories 💜
+</button>
+
+</div>
+
+</header>
+
+<section class="gallery" id="gallery">
+
+<h2>📸 Beautiful Memories Together</h2>
+
+<div class="gallery-container">
+
+<div class="card">
+<img src="image/image1.jpeg" alt="Memory 1">
+<h3>Our Favorite Place ❤️</h3>
+</div>
+
+<div class="card">
+<img src="image/image2.jpeg" alt="Memory 2">
+<h3>Forever your little one. 😊</h3>
+</div>
+
+<div class="card">
+<img src="image/image3.jpeg" alt="Memory 3">
+<h3>Special Moments 💙</h3>
+</div>
+
+<div class="card">
+<img src="image/image4.jpeg" alt="Memory 4">
+<h3>Our Superhero 🦸</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="message">
+
+<h2>💜 A Message From Heart 💜</h2>
+
+<p>
+Dear Papa,<br><br>
+
+You have always been my biggest supporter, my greatest teacher and my strongest protector.
+Every lesson you've taught me and every memory we've shared will stay with me forever.
+Thank you for believing in me, guiding me and loving me unconditionally.
+No matter how old I grow, I will always look up to you.
+🎀 Happy Father's Day to the man who made our world beautiful
+</p>
+
+</section>
+
+<footer>
+
+Made with ❤️ Especially for My Papa 
+
+</footer>
+
+</body>
+</html>
